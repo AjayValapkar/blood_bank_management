@@ -1,0 +1,288 @@
+.card-img-top{
+     width: 15%;
+     height: 5%;
+}
+.img-fluid {
+     max-width: 100%;
+     height: auto;
+     width: 100%;
+   }
+.i{
+     font-size: 17.5px;
+}
+.fas {
+     font-weight: 900;
+     font-size: 17.5px;
+     margin-left: 12px;
+ }
+ 
+
+/* Container holding the image and the text */
+.conmtainer {
+     position: relative;
+     text-align: center;
+     color: white;
+     width: 100%;
+     border: none;
+    }
+
+/* Bottom left text */
+.bottom-left {
+ position: absolute;
+ bottom: 8px;
+ left: 16px;
+}
+
+/* Top left text */
+.top-left {
+ position: absolute;
+ top: 20%;
+ left: 8%;
+ font-size: 40PX;
+ font-weight: 750;
+}
+
+/* Top right text */
+.top-right {
+ position: absolute;
+ top: 8px;
+ right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+ position: absolute;
+ bottom: 8px;
+ right: 16px;
+}
+
+/* Centered text */
+.centered {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+h1{
+     color: black;
+     font-size: 40px;
+     font-weight: 700;
+}
+
+.nav-link p{
+     color: black;
+     font-size: 17.5px;
+}
+.nav-item{
+     color: black;
+     font-size: 17.5px;
+}
+.navbar-brand img{
+  width: 60px;
+}
+#Register-heading{
+     color: black;
+}
+h5{
+     color: black;
+}
+.admin span{
+     color: black;
+     font-size: 16.5px;
+     font-weight: 600;
+}
+.btn btn-dark{
+     margin-left:-20px;
+}
+.main{
+     width: 100%;
+     display: flex;
+     border: solid black;
+}
+.left{
+     /* border: solid black; */
+     border-top: solid black;
+     width: 15%;
+}
+.right{
+     /* border: solid black; */
+     width: auto;
+     border-top: solid black;
+     padding-top: 5px;
+}
+.split {
+     height: 100%;
+     width: 50%;
+     position: fixed;
+     z-index: 1;
+     top: 80px;
+     overflow-x: hidden;
+     padding-top: 1px;
+   }
+   
+   
+   /* Control the left side */
+   .left {
+     left: 0;
+     background-color: rgb(122, 33, 33);
+     width: 16%;
+   }
+   
+   /* Control the right side */
+   .right {
+     right: 0;
+     /* background-image: url("../img/blood2.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     backface-visibility: hidden;
+     background-blend-mode: darken; */
+     background-color: white;
+     width: 84%;
+   }
+   
+   /* If you want the content centered horizontally and vertically */
+   .centered {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     width: 25.0%;
+     height: 45%;
+     box-shadow: 10px 10px;
+
+     border: 1px solid rgb(0, 0, 0);
+   }
+   .nav-link {
+        display: flex;
+        font-size: 17.5px;
+        font-weight: 400;
+        color: black;
+   }
+   .header h2{
+        /* background-color: #1b14eb; */
+        color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px #ff0707;
+        font-weight: 600;
+        color: black;
+        height: 10%;
+   }
+   hr{
+     height: 1px;
+     background-color: #ccc;
+     border: none;
+ }
+ table,td{
+       margin-left: 20px;
+ }
+ th, td {
+     padding: 15px;
+     text-align: left;
+   }
+
+   
+.input-group1 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    /* -ms-flex-align: stretch; */
+    align-items: stretch;
+    width: 30%;
+}
+.submit{
+     padding: 0.1px;
+     margin-left: 20px;
+}
+.nav-link {
+     display: inline-block;
+     position: relative;
+     color: #ffffff;
+   }
+   
+   .nav-link:after {
+     content: '';
+     position: absolute;
+     margin-left: 12px;
+     margin-top: 1px;
+     width: 80%;
+     transform: scaleX(0);
+     height: 1.7px;
+     bottom: 0;
+     left: 0;
+     background-color: yellow;
+     transform-origin: bottom right;
+     transition: transform 0.50s ease-out;
+   }
+   
+   .nav-link:hover:after {
+     transform: scaleX(1);
+     transform-origin: bottom left;
+   }
+   .Blood_group{
+        width: 35%;
+   }
+   .View{
+        margin-left: 5px;
+        /* border: solid black; */
+   }
+   #heading{
+        padding: 6px;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        font-size: 15px;
+        font-weight: 900;
+        border-bottom: 1px solid black;
+   }
+   #newone{
+        border-bottom: 1px solid black;
+        font-size: 16px;
+        
+        padding: 6px;
+        font-weight: 600;
+   }
+   /* #heading:hover,#newone:hover{
+        background-color: #ffffff;
+   } */
+   #first:hover{
+        background-color: rgb(255, 255, 255);
+   }
+   tr:hover{
+        background-color: black;
+   }
+   .main1{
+     /* margin-top: -10px; */
+     display: flex;
+     margin: 0 auto;
+     width: 100%;
+     /* border: solid red; */
+     height: 17vh;
+     box-shadow: 2px 4.5px 1px 0px rgb(47, 43, 43);
+   }
+   .left1{
+     /* border: solid black; */
+     width: 45%;
+    /* border: solid red; */
+     color: red;
+
+
+   }
+   .right1{
+     /* border: solid black; */
+     background-color: white;
+     width: 55%;
+     padding-top: 0px;
+   }
+   .Blood_group{
+        /* border-right: solid black; */
+        /* box-shadow: 3px 0px black; */
+        width: 100%;
+        height: 100%;
+   }
+   .mb-0{
+        padding: 20%;
+        margin-left: 10%;
+        font-size: 30px;
+   }
